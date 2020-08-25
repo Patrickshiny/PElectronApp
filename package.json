@@ -1,0 +1,18 @@
+{
+  "name": "pelectronapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./index.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "electron": "^9.1.2"
+  },
+  "dependencies": {
+    "update-electron-app": "^1.5.0"
+  }
+}
