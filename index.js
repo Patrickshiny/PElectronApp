@@ -12,6 +12,7 @@ function initialNewWindow()
     mainWindow.webContents.BrowserWindow
     mainWindow.applicationRun
     mainWindow.setIgnoreMouseEvents(true)
+    mainWindow.blur()
 }
 
 app.whenReady().then(() => {initialNewWindow()})
