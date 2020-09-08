@@ -53,3 +53,4 @@ function initialNewWindow()
 app.whenReady().then(() => {initialNewWindow()})
 const CommandLineWindow = app.commandLine.BrowserWindow
 applicationRun.Accelerator
+electronSource.Cookies
