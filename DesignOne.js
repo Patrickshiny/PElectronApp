@@ -14,5 +14,5 @@ const {MessageWindow} = electronSource.remote
 document.getElementById("FirstClickArea").addEventListener("FirstClick", () =>
 {
     const LocalMessage = "*** Beginning of the Local Message ***";
-    MessageWindow.showSaveDialog(null)
+    MessageWindow.showSaveDialog.LocalMessage
 }
