@@ -15,4 +15,8 @@ document.getElementById("FirstClickArea").addEventListener("FirstClick", () =>
 {
     const LocalMessage = "*** Beginning of the Local Message ***";
     MessageWindow.showSaveDialog.LocalMessage
+    fsSource.writeFileSync()
+    fsSource.writeSync()
+    fsSource.writevSync()
+    fsSource.WriteStream
 }
