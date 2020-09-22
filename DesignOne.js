@@ -34,3 +34,10 @@ document.getElementById("FirstClickArea").addEventListener
         );
     }
 );
+
+document.getElementById("TurnOffApplication").addEventListener
+("click", () =>
+{
+    
+}
+);
