@@ -16,6 +16,7 @@ document.getElementById("FirstClickArea").addEventListener
 ("click", () => 
     {
         const LocalMessage = "*** Beginning of the Local Message ***";
+        console.log(LocalMessage);
         // MessageWindow.showSaveDialog.LocalMessage
         // fsSource.writeFileSync()
         // fsSource.writeSync()
@@ -35,9 +36,11 @@ document.getElementById("FirstClickArea").addEventListener
     }
 );
 
+CurrentWindow = electronSource.getCurrentWindow()
+
 document.getElementById("TurnOffApplication").addEventListener
 ("click", () =>
 {
-    
+    CurrentWindow.Close()
 }
 );
