@@ -38,7 +38,7 @@ document.getElementById("FirstClickArea").addEventListener
 
 CurrentWindow = electronSource.getCurrentWindow()
 electronSource.ClientRequest
-
+querySelector()
 document.getElementById("TurnOffApplication").addEventListener
 ("click", () =>
 {
