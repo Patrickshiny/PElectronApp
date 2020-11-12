@@ -17,7 +17,7 @@ const {MessageWindow} = require('electron').remote;
 const MessageWindow = electronSource.remote
 const { MessageWindow } = electronSource.remote
 const { eleDialog } = electronSource.remote.dialog
-const {CurrentWindow} = CurrentWindow.showSaveDialog
+const { CurrentWindow, ChildWindow } = CurrentWindow.showSaveDialog
 // BrowserWindow.getCurrentWindow()
 /* Get a Message Window from the Remote Module */
 
