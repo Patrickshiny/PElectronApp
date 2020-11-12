@@ -5,7 +5,7 @@ const fsSource = require('fs')
 const { BrowserWindow, CurrentWindow} = require('electron');
 const {MessageWindow} = require('electron').remote;
 
-const { dialog } = BrowserWindow.dialog
+ㄥconst { dialog } = BrowserWindow.dialog
 
 // BrowserWindow.showSaveDialog
 // CurrentWindow.showSaveDialog
@@ -14,10 +14,10 @@ const { dialog } = BrowserWindow.dialog
 /* Get electron and fs functions */
 
 /* Get a Message Window from the Remote Module */
-// const MessageWindow = electronSource.remote
-// const { MessageWindow } = electronSource.remote
-// const { eleDialog } = electronSource.remote.dialog
-// const {CurrentWindow} = CurrentWindow.showSaveDialog
+const MessageWindow = electronSource.remote
+const { MessageWindow } = electronSource.remote
+const { eleDialog } = electronSource.remote.dialog
+const {CurrentWindow} = CurrentWindow.showSaveDialog
 // BrowserWindow.getCurrentWindow()
 /* Get a Message Window from the Remote Module */
 
