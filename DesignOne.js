@@ -28,7 +28,8 @@ const { dialog } = MessageWindow.dialog
 const { eleDialog } = remote.dialog
 
 // const { CurrentWindow, ChildWindow } = CurrentWindow.showSaveDialog
-const { ChildWindow } = CurrentWindow.showSaveDialog
+// const { ChildWindow } = CurrentWindow.showSaveDialog
+const { ChildWindow } = eleDialog.showSaveDialog
 
 // BrowserWindow.getCurrentWindow()
 /* Get a Message Window from the Remote Module */
