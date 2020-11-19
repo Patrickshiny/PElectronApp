@@ -12,7 +12,7 @@ const { BrowserWindow, CurrentWindow} = require('electron');
 const {remote} = require('electron');
 const {MessageWindow} = remote;
 
-const { dialog } = MessageWindow.dialog
+// const { dialog } = MessageWindow.dialog
 
 // BrowserWindow.showSaveDialog
 // CurrentWindow.showSaveDialog
@@ -25,11 +25,17 @@ const { dialog } = MessageWindow.dialog
 /* Original eleDialog */
 // const { eleDialog } = electronSource.remote.dialog
 /* Original eleDialog */
-const { eleDialog } = remote.dialog
+// const { eleDialog } = remote.dialog
+const { eleDialog } = require("electron").remote;
+const fs = require('fs');
+
+var FileSavingPath = eleDialog.showSaveDialog({});
+var FileOpenPath = eleDialog.showOpenDialog({});
 
 // const { CurrentWindow, ChildWindow } = CurrentWindow.showSaveDialog
 // const { ChildWindow } = CurrentWindow.showSaveDialog
-const { ChildWindow } = eleDialog.showSaveDialog
+// const { ChildWindow } = eleDialog.showSaveDialog
+// const { ChildWindow } = eleDialog.showSaveDialo
 
 // BrowserWindow.getCurrentWindow()
 /* Get a Message Window from the Remote Module */
