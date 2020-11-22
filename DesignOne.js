@@ -79,7 +79,8 @@ document.getElementById("FirstClickArea").addEventListener
 // const {CurrentWindow} = electronSource.getCurrentWindow()
 // electronSource.ClientRequest
 
-
+document.getAnimations()
+DocumentType.properties.remote
 document.getElementById("TurnOffApplication").addEventListener
 ("click", () =>
 {
