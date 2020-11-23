@@ -31,6 +31,7 @@ const fs = require('fs');
 
 var FileSavingPath = eleDialog.showSaveDialog({});
 var FileOpenPath = eleDialog.showOpenDialog({});
+eleDialog.properties
 
 // const { CurrentWindow, ChildWindow } = CurrentWindow.showSaveDialog
 // const { ChildWindow } = CurrentWindow.showSaveDialog
