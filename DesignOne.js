@@ -65,6 +65,7 @@ document.getElementById("FirstClickArea").addEventListener
             // eleDialog.showSaveDialog(
         // CurrentWindow.CurrentWindow
         // CurrentWindow.MessageWindow.showSaveDialog(
+        MessageWindow.showMessageBox()
         MessageWindow.showSaveDialog(
             function (filename) {
                     fsSource.writeFileSync(
