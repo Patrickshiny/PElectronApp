@@ -58,7 +58,7 @@ document.getElementById("FirstClickArea").addEventListener
         console.log(dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] }))
         // MessageWindow.showSaveDialog.LocalMessage
         // fsSource.writeFileSync()
-        // fsSource.writeSync()
+        fsSource.writeSync()
         // fsSource.writevSync()
         // fsSource.WriteStream
         // MessageWindow.showSaveDialog(
@@ -87,7 +87,8 @@ document.getElementById("TurnOffApplication").addEventListener
 ("click", () =>
 {
     const TurnOffApplicationMsg = "[TurnOffApplicationMsg Clicked]";
-     console.log(TurnOffApplicationMsg);
+    const TurnOfFPopupMsg = "[Turned Off]";
+    // console.log(TurnOffApplicationMsg);
     // CurrentWindow.Close()
     CurrentWindow.Closing()
 }
