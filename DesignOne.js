@@ -56,10 +56,10 @@ document.getElementById("FirstClickArea").addEventListener
         console.log(FirstClickAreaMsg);
         // console.log(dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] }))
         console.log(dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] }))
-        // MessageWindow.showSaveDialog.LocalMessage
+        MessageWindow.showSaveDialog.LocalMessage
         // fsSource.writeFileSync()
         fsSource.writeSync()
-        // fsSource.writevSync()
+        fsSource.writevSync()
         // fsSource.WriteStream
         // MessageWindow.showSaveDialog(
             // eleDialog.showSaveDialog(
