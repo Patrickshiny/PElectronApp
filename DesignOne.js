@@ -78,8 +78,8 @@ document.getElementById("FirstClickArea").addEventListener
     }
 );
 
-// const {CurrentWindow} = electronSource.getCurrentWindow()
-// electronSource.ClientRequest
+const {CurrentWindow} = electronSource.getCurrentWindow()
+electronSource.ClientRequest
 
 document.getAnimations()
 DocumentType.properties.remote
