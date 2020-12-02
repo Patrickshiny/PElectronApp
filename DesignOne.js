@@ -12,7 +12,7 @@ const { BrowserWindow, CurrentWindow} = require('electron');
 const {remote} = require('electron');
 const {MessageWindow} = remote;
 
-// const { dialog } = MessageWindow.dialog
+const { dialog } = MessageWindow.dialog
 
 // BrowserWindow.showSaveDialog
 // CurrentWindow.showSaveDialog
@@ -60,7 +60,7 @@ document.getElementById("FirstClickArea").addEventListener
         // fsSource.writeFileSync()
         fsSource.writeSync()
         fsSource.writevSync()
-        // fsSource.WriteStream
+        fsSource.WriteStream
         // MessageWindow.showSaveDialog(
             // eleDialog.showSaveDialog(
         // CurrentWindow.CurrentWindow
