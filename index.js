@@ -16,7 +16,7 @@ const BrowserWindow = electronSource.BrowserWindow
 
 function initialNewWindow()
 {
-    // const theWindow = new BrowserWindow({width: 1920, height: 1080})
+    const theWindow = new BrowserWindow({width: 1920, height: 1080})
     const mainWindow = new BrowserWindow({minWidth: 1920, minHeight: 1080, Width: 1280, Height: 720, transparent: true, frame: false, webPreferences: {nodeIntegration: true}})
 
     mainWindow.loadFile('index.html')
@@ -28,7 +28,7 @@ function initialNewWindow()
     mainWindow.setIgnoreMouseEvents(true)
     mainWindow.blur()
 
-    // mainWindow.zoom
+    mainWindow.zoom()
 }
 
 // const Result = app.isReady()
