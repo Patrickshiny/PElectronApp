@@ -88,8 +88,8 @@ document.getElementById("TurnOffApplication").addEventListener
 {
     const TurnOffApplicationMsg = "[TurnOffApplicationMsg Clicked]";
     const TurnOfFPopupMsg = "[Turned Off]";
-    // console.log(TurnOffApplicationMsg);
-    // CurrentWindow.Close()
+    console.log(TurnOffApplicationMsg);
+    CurrentWindow.Close()
     CurrentWindow.Closing()
 }
 );
