@@ -1,6 +1,6 @@
 /* Get electron and fs functions */
 const fsSource = require('fs')
-// const electronSource = require('electron')
+const electronSource = require('electron')
 // const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron');
 const { BrowserWindow, CurrentWindow} = require('electron');
 
@@ -51,7 +51,7 @@ document.getElementById("FirstClickArea").addEventListener
 // debugger;
 ("click", () => 
     {
-        // const LocalMessage = "*** Beginning of the Local Message ***";
+        const LocalMessage = "*** Beginning of the Local Message ***";
         const FirstClickAreaMsg = "[FirstClickArea Clicked]";
         console.log(FirstClickAreaMsg);
         // console.log(dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] }))
