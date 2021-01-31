@@ -1,7 +1,7 @@
 /* Get electron and fs functions */
 const fsSource = require('fs')
 const electronSource = require('electron')
-// const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron');
+const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron');
 const { BrowserWindow, CurrentWindow} = require('electron');
 
 /* Original MessageWindow */
@@ -25,6 +25,7 @@ const { dialog } = MessageWindow.dialog
 /* Original eleDialog */
 // const { eleDialog } = electronSource.remote.dialog
 /* Original eleDialog */
+
 // const { eleDialog } = remote.dialog
 const { eleDialog } = require("electron").remote;
 const fs = require('fs');
