@@ -2,17 +2,22 @@
   "name": "pelectronapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./index.js"
+    "start": "electron ./main.js"
   },
   "author": "",
   "license": "",
   "devDependencies": {
-    "electron": "^9.1.2"
+    "electron": "^9.1.2",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
-    "update-electron-app": "^1.5.0"
+    "source-map-support": "^0.5.19",
+    "update-electron-app": "^1.5.0",
+    "electron": "^9.1.2"
   }
 }
