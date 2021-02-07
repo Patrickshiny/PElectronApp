@@ -3,9 +3,9 @@ const app = applicationRun.app
 const BrowserWindow = applicationRun.BrowserWindow
 const electronSource = require('electron')
 
-/* Original */
+// /* Original */
 // const { app, BrowserWindow } = require('electron')
-/* Original */
+// /* Original */
 // const app = require('electron')
 // const app = electron.app
 const app = electronSource.app
