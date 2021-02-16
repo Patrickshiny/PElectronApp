@@ -1,7 +1,19 @@
-const applicationRun = require('electron')
+/* ES5 applicationRun */
+// const applicationRun = require('electron')
+/* ES5 applicationRun */
+/* ES6 applicationRun */
+import applicationRun from 'electron';
+/* ES6 applicationRun */
+
 const app = applicationRun.app
 const BrowserWindow = applicationRun.BrowserWindow
-const electronSource = require('electron')
+
+/* ES5 electronSource */
+// const electronSource = require('electron')
+/* ES5 electronSource */
+/* ES6 electronSource */
+import electronSource from 'electron';
+/* ES6 electronSource */
 
 // /* Original */
 // const { app, BrowserWindow } = require('electron')

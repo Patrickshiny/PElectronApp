@@ -1,5 +1,12 @@
 /* Get electron and fs functions */
-const fsSource = require('fs');
+
+/* ES5 fsSource */
+// const fsSource = require('fs');
+/* ES5 fsSource */
+/* ES6 fsSource */
+import fsSource from 'fs';
+/* ES6 fsSource */
+
 // const electronSource = require('electron')
 // const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron');
 // const { BrowserWindow, CurrentWindow } = require('electron')
@@ -10,7 +17,13 @@ const fsSource = require('fs');
 /* Original MessageWindow */
 // const {remote} = require('electron');
 // const {MessageWindow} = remote;
-const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron').remote;
+
+/* ES5 BrowserWindow, CurrentWindow, MessageWindow */
+// const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron').remote;
+/* ES5 BrowserWindow, CurrentWindow, MessageWindow */
+/* ES6 BrowserWindow, CurrentWindow, MessageWindow */
+import {BrowserWindow, CurrentWindow, MessageWindow} from ('electron').remote;
+/* ES6 BrowserWindow, CurrentWindow, MessageWindow */
 
 // const { dialog } = MessageWindow.dialog
 
@@ -26,8 +39,20 @@ const { BrowserWindow, CurrentWindow, MessageWindow } = require('electron').remo
 // const { eleDialog } = electronSource.remote.dialog
 /* Original eleDialog */
 // const { eleDialog } = remote.dialog
-const { dialog, eleDialog } = require("electron").remote;
-const fs = require('fs');
+
+/* ES5 dialog, eleDialog */
+// const { dialog, eleDialog } = require("electron").remote;
+/* ES5 dialog, eleDialog */
+/* ES6 dialog, eleDialog */
+import {dialog, eleDialog} from ('electron').remote;
+/* ES6 dialog, eleDialog */
+
+/* ES5 fs */
+// const fs = require('fs');
+/* ES5 fs */
+/* ES6 fs */
+import fs from 'fs';
+/* ES6 fs */
 
 // var FileSavingPath = eleDialog.showSaveDialog({});
 // var FileOpenPath = eleDialog.showOpenDialog({});
